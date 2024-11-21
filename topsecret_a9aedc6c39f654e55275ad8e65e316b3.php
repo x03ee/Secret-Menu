@@ -41,15 +41,15 @@ if (isset($_GET['download'])) {
         <h1>Welcome to the Top Secret Government Portal</h1>
         <p>Authorized personnel only.</p>
 
-        <img id="selectedImage" src="/assets/images/topsecret1.png" alt="Selected Image">
+        <img id="selectedImage" src="/assets/images/m1tm.png" alt="Selected Image">
 
         <form method="GET" action="">
             <label for="image">Select Image to Download:</label>
             <select name="download" id="image" onchange="updateImage()">
-                <option value="/assets/images/topsecret1.png">Image 1</option>
-                <option value="/assets/images/topsecret2.png">Image 2</option>
-                <option value="/assets/images/topsecret3.png">Image 3</option>
-                <option value="/assets/images/topsecret4.png">Image 4</option>
+                <option value="/assets/images/m1tm.png">Image 1</option>
+                <option value="/assets/images/m1tm.png">Image 2</option>
+                <option value="/assets/images/m1tm.png">Image 3</option>
+                <option value="/assets/images/m1tm.png">Image 4</option>
             </select>
             <button type="submit">Download</button>
         </form>
